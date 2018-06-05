@@ -21,4 +21,4 @@ env:
   test1
 player:
   name: curry
-  age: 30
+  age: 100
