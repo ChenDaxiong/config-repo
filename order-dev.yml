@@ -9,6 +9,12 @@ spring:
     password: 19920807
   jpa:
    show-sql: true
+  #配置rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
 
 eureka:
   client:
