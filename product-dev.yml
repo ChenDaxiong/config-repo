@@ -6,5 +6,12 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/springCloud-Product?characterEncoding=utf8
     username: root
     password: 19920807
+    #配置rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest  
   jpa:
    show-sql: true
+   
