@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springCloud-Product?characterEncoding=utf8
+    username: root
+    password: 19920807
+  jpa:
+   show-sql: true
